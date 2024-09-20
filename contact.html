@@ -1,41 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            font-size: 2.2em;
+            margin: 0;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .container h2 {
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            color: #333;
+        }
+
+        .contact-info {
+            margin: 20px 0;
+            font-size: 1.1em;
+        }
+
+        .contact-info i {
+            margin-right: 10px;
+            color: #555;
+        }
+
+        .contact-info u {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .contact-info u:hover {
+            text-decoration: underline;
+        }
+
+        .line {
+            margin: 20px 0;
+            height: 1px;
+            background-color: #ddd;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 0.9em;
+            margin-top: 30px;
+        }
+    </style>
 </head>
+
 <body>
     <header>
-        <h1>Are you someone who need helps for game recommendation? That's what this blog for.</h1>
+        <h1>Need help with game recommendations? This blog has you covered.</h1>
         <nav>
             <a href="index.html">Blog</a> | 
             <a href="about.html">About</a> | 
             <a href="contact.html">Contact</a>
         </nav>
     </header>
-    <br>
-    <pre>
-If you’re wondering about more game information, game news, or our website, 
-shoot them an email at <u>thennysh@gmail.com</u> or check out the 
-number below: 
 
-<hr>
-For everything else... 
+    <div class="container">
+        <h2>Get in Touch</h2>
+        <p>If you have questions about games, news, or anything about our website, feel free to contact us:</p>
+        <div class="contact-info">
+            <i class="fas fa-envelope"></i><u>thennysh@gmail.com</u><br>
+        </div>
 
-For Careers or Partnerships: <u>iliyaaiman@gmail.com</u>
+        <div class="line"></div>
 
-Danysh: <u>+60105324386</u>
+        <p>For other inquiries, reach out to us directly:</p>
 
-Iliya: <u>+60182885255</u>
+        <div class="contact-info">
+            <i class="fas fa-envelope"></i>Careers/Partnerships: <u>iliyaaiman@gmail.com</u><br>
+            <i class="fas fa-phone-alt"></i>Danysh: <u>+60105324386</u><br>
+            <i class="fas fa-phone-alt"></i>Iliya: <u>+60182885255</u><br>
+        </div>
 
-HQ Address: Blok A, Jalan Cenderawasih, Shah Alam, Selangor, Malaysia
-    </pre>
+        <div class="line"></div>
 
+        <p>Headquarters:</p>
+        <div class="contact-info">
+            <i class="fas fa-map-marker-alt"></i>Blok A, Jalan Cenderawasih, Shah Alam, Selangor, Malaysia
+        </div>
+    </div>
 
-</body>
     <footer>
         <p>&copy; 2024 Group Moon. All rights reserved.</p>
     </footer>
+
 </body>
+
 </html>
