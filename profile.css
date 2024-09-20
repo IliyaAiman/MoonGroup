@@ -73,9 +73,6 @@ body {
     font-family: 'Comic Sans MS', cursive;
 }
 
-.social-media a i {
-    margin-right: 8px;
-}
 
 .social-media a:hover {
     background-color: #f7b731;
