@@ -39,6 +39,13 @@ ul{
     max-width: 1050px;
     width: 90%;
 }
+.blog-box-container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    max-width: 580px;
+    width: 90%;
+}
 .blog-box{
     max-width: 100%;/*350px*/
     width: 100%;
@@ -156,6 +163,7 @@ ul{
     font-size: 0.8rem;
     font-weight: 500;
 }
+
 @media(max-width:920px){
     .blog-box-container{
         grid-template-columns: 1fr 1fr;

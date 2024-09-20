@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    
     padding: 20px;
 }
 
@@ -73,9 +73,6 @@ body {
     font-family: 'Comic Sans MS', cursive;
 }
 
-.social-media a i {
-    margin-right: 8px;
-}
 
 .social-media a:hover {
     background-color: #f7b731;
