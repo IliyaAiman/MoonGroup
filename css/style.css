@@ -156,6 +156,7 @@ ul{
     font-size: 0.8rem;
     font-weight: 500;
 }
+
 @media(max-width:920px){
     .blog-box-container{
         grid-template-columns: 1fr 1fr;
